@@ -1,4 +1,4 @@
-package com.example.hero;
+package com.wenqi.doudou;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
