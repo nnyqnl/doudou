@@ -63,5 +63,6 @@ public class ThreadState {
 
 
         System.out.println("t1 after start state: " + t1.getState());
+
     }
 }
