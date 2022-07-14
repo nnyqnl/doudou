@@ -2,8 +2,7 @@ package com.wenqi.yellowbike.v2;
 
 public class Passenger {
     private Route route;
-    private int
-            remainingDistance;
+    private int remainingDistance;
 
     public Passenger(Route route, int remainingDistance) {
         this.route = route;
