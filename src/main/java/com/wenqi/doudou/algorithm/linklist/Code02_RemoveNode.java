@@ -1,6 +1,6 @@
 package com.wenqi.doudou.algorithm.linklist;
 
-public class RemoveNode {
+public class Code02_RemoveNode {
 
     public static class Node {
         public int value;

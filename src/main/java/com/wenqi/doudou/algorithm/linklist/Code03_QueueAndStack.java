@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
 
-public class QueueAndStack {
+public class Code03_QueueAndStack {
 
     public static class Node<T> {
         public T value;

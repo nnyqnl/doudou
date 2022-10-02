@@ -1,6 +1,6 @@
 package com.wenqi.doudou.algorithm.linklist;
 
-public class ReverseList {
+public class Code01_ReverseList {
 
     public static class Node {
         public int value;
