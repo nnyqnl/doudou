@@ -3,7 +3,7 @@ package com.wenqi.doudou.algorithm.linklist;
 import java.util.LinkedList;
 import java.util.Stack;
 
-public class Code07_MyStackUseQueue {
+public class Code07_MyStackUseTwoQueue {
     public static class MyStack {
         private LinkedList<Integer> dataQueue;//只用单向链表的性质
         private LinkedList<Integer> helpQueue;
