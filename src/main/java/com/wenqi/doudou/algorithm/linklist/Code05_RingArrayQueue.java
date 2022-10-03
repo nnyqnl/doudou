@@ -11,7 +11,7 @@ public class Code05_RingArrayQueue {
         private int polli;
         private int pushi;
         private int size;
-        private int length;
+        private final int length;
 
         public MyQueue(int length) {
             this.arr = new int[length];
