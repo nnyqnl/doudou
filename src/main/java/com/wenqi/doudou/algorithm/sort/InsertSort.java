@@ -1,4 +1,4 @@
-package com.wenqi.doudou.sort;
+package com.wenqi.doudou.algorithm.sort;
 
 public class InsertSort {
     public static void swap(int[] arr, int index1, int index2) {

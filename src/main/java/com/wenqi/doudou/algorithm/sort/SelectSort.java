@@ -1,4 +1,4 @@
-package com.wenqi.doudou.sort;
+package com.wenqi.doudou.algorithm.sort;
 
 public class SelectSort {
 
