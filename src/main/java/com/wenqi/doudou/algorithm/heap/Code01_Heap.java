@@ -3,9 +3,9 @@ package com.wenqi.doudou.algorithm.heap;
 public class Code01_Heap {
 
     public static class MyMaxHeap {
-        private int[] heap;
+        private final int[] heap;
         private int heapSize;
-        private int limit;
+        private final int limit;
 
         public int[] getHeap() {
             return heap;
@@ -16,6 +16,10 @@ public class Code01_Heap {
             this.limit = limit;
             this.heapSize = 0;
 
+        }
+
+        public int getHeapSize() {
+            return this.heapSize;
         }
 
         public boolean isEmpty() {
