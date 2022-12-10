@@ -2,7 +2,6 @@ package com.wenqi.doudou.algorithm.trieTree;
 
 import com.wenqi.doudou.algorithm.utils.Util;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
