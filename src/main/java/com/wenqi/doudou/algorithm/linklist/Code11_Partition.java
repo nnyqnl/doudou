@@ -1,6 +1,6 @@
 package com.wenqi.doudou.algorithm.linklist;
 
-public class Code10_Partition {
+public class Code11_Partition {
 
     public static void swap(int[] arr, int i, int j) {
         int tmp = arr[i];
