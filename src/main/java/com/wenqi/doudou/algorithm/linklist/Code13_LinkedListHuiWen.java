@@ -65,23 +65,37 @@ public class Code13_LinkedListHuiWen {
         // 1 2 3 4 5
         Node n2 = n1.next;
         n1.next = null;
+        Node n3;
         while (n2 != null) {
-            Node n3 = n2.next;
+            n3 = n2.next;
             n2.next = n1;
             n1 = n2;
             n2 = n3;
         }
 
-        Node nx = n2;
+        Node nx = n1;
 
+        boolean flag = true;
         while (head != null && n1 != null) {
             if (head.value != n1.value) {
-                return false;
+                flag = false;
+                break;
             }
             head = head.next;
             n1 = n1.next;
         }
-        return true;
+        // reverse list
+        n1 = nx;
+        n2 = n1.next;
+        n1.next = null;
+        while (n2 != null) {
+            n3 = n2.next;
+            n2.next = n1;
+            n1 = n2;
+            n2 = n3;
+        }
+
+        return flag;
 
     }
 
